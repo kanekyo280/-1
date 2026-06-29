@@ -1,0 +1,36 @@
+@use "../global/setting" as *;
+
+.concept {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    margin: 5rem 0;
+
+    &--img {
+        width: 55rem;
+        height: auto;
+    }
+
+    &__title {
+        font-size: 1.6rem;
+        color: $color-font;
+        letter-spacing: 0.1em;
+        margin-bottom: 2rem;
+
+        &--area {
+            font-size: 3.2rem;
+            font-weight: 700;
+            color: $color-sky;
+            letter-spacing: 0.1em;
+            margin-bottom: 3rem;
+        }
+    }
+
+    &__text {
+        font-size: 1.6rem;
+        letter-spacing: 0.1em;
+        color: $color-font;
+    }
+}
