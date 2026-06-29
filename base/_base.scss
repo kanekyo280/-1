@@ -1,3 +1,5 @@
+@use "../global/setting" as *;
+
 html {
     font-size: 62.5%;
 }
@@ -5,4 +7,12 @@ html {
 body {
     width: 100%;
     font-family: Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+}
+
+a {
+    transition: opacity 0.3s ease;
+
+    &:hover {
+        opacity: 0.7;
+    }
 }
