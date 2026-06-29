@@ -21,3 +21,12 @@ a {
     color: $color-font;
     text-decoration: none;
 }
+
+button {
+    padding: 0;
+    border: none;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+}

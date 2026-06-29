@@ -36,6 +36,71 @@ a {
   text-decoration: none;
 }
 
+button {
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+
+footer {
+  width: 100%;
+  height: 20rem;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer__logo {
+  width: 20rem;
+  height: 4rem;
+}
+
+.footer__text {
+  color: #8b8b8b;
+  font-size: 1.2rem;
+  margin-top: 5rem;
+}
+
+.section__title {
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: #24a8bf;
+  letter-spacing: 0.1em;
+}
+
+button {
+  position: relative;
+  width: 22rem;
+  color: #24a8bf;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  padding: 1.8rem 0;
+  border: 0.1rem solid #24a8bf;
+  border-radius: 0.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button::after {
+  content: "";
+  position: absolute;
+  right: 2rem;
+  width: 0.5rem;
+  height: 0.9rem;
+  background: url(../img/icon_arrow-right.png) no-repeat center center/cover;
+}
+
+.blog__btn {
+  color: #24a8bf;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
 .wrapper {
   width: 100%;
   display: flex;
@@ -82,25 +147,56 @@ header {
   gap: 4rem;
   margin: 5rem 0;
 }
-.concept--img {
+.concept__img {
   width: 55rem;
   height: auto;
 }
-.concept__title {
+.concept__subtitle {
   font-size: 1.6rem;
   color: #333;
   letter-spacing: 0.1em;
   margin-bottom: 2rem;
 }
-.concept__title--area {
-  font-size: 3.2rem;
-  font-weight: 700;
-  color: #24a8bf;
-  letter-spacing: 0.1em;
+.concept__title {
   margin-bottom: 3rem;
 }
 .concept__text {
   font-size: 1.6rem;
   letter-spacing: 0.1em;
   color: #333;
+}
+
+.blog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5rem 0;
+}
+.blog__title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  margin-bottom: 3rem;
+}
+.blog__content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5rem 3rem;
+}
+.blog__item {
+  width: 35rem;
+}
+.blog__item img {
+  width: 100%;
+  height: 17.8rem;
+}
+.blog__item h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #333;
+  margin-top: 1.2rem;
+  margin-bottom: 0.6rem;
+}
+.blog__item time {
+  font-size: 1.2rem;
 }/*# sourceMappingURL=style.css.map */
