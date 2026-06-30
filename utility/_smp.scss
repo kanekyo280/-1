@@ -1,0 +1,32 @@
+@use "../global/setting" as *;
+@media screen and (max-width: 766px) {
+    // --------------header-----------------------
+    .header__title {
+        padding: 3rem 0;
+
+        &--img {
+            width: 16rem;
+            height: 3.2rem;
+            
+        }
+}
+
+    .main-visual {
+        width: 100%;
+        height: auto;
+    }
+
+    .nav__content {
+    gap: 5rem;
+    padding: 3rem 0;
+}
+
+.nav__item {
+    font-size: 1.6rem;
+    letter-spacing: 0.1em;
+}
+
+// --------conceptセクション-----------------------
+
+
+}

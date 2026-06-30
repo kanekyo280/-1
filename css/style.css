@@ -199,4 +199,26 @@ header {
 }
 .blog__item time {
   font-size: 1.2rem;
+}
+
+@media screen and (max-width: 766px) {
+  .header__title {
+    padding: 3rem 0;
+  }
+  .header__title--img {
+    width: 16rem;
+    height: 3.2rem;
+  }
+  .main-visual {
+    width: 100%;
+    height: auto;
+  }
+  .nav__content {
+    gap: 5rem;
+    padding: 3rem 0;
+  }
+  .nav__item {
+    font-size: 1.6rem;
+    letter-spacing: 0.1em;
+  }
 }/*# sourceMappingURL=style.css.map */
