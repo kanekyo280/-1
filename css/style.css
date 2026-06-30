@@ -221,4 +221,36 @@ header {
     font-size: 1.6rem;
     letter-spacing: 0.1em;
   }
+  .concept {
+    flex-direction: column;
+    gap: 0;
+    margin: 0;
+    padding: 3rem 2rem 5rem;
+  }
+  .concept__img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 3rem;
+  }
+  .concept__inner {
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 0 2rem 0;
+  }
+  .concept__subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .concept__title {
+    font-size: 2.6rem;
+    margin-bottom: 2rem;
+  }
+  .concept__text {
+    font-size: 1.5rem;
+    letter-spacing: 0.15rem;
+    line-height: 2.7rem;
+  }
 }/*# sourceMappingURL=style.css.map */
